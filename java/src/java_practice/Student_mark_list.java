@@ -18,7 +18,7 @@ public class Student_mark_list {
 		abisheak.Percentage =65.8;
 		abisheak.pass = true;
 		abisheak.display();
-		
+		 
 		Student_mark_list bala = new Student_mark_list();
 		bala.student_name ="Bala";
 		bala.Age  = 24;
