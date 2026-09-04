@@ -5,6 +5,7 @@ public class Student_mark_list {
        int Age;
        double Percentage;
        boolean pass;
+       
        public void display() {
     	   System.out.println("student name :"+ student_name);
     	   System.out.println("age :"+ Age);
