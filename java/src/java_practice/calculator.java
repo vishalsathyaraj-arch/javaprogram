@@ -1,19 +1,50 @@
 package java_practice;
 
+import java.util.Scanner;
+
 public class calculator {
-	static int a =20;
-	static int b =5;
 	public static void main(String[] args) {
-	int sum=a+b;
-	System.out.println("Addition : "+sum);
-	int sub = a-b;
-	System.out.println("Subtraction : "+sub);
-	int mult = a*b;
-	System.out.println("Multiplication : "+mult);
-	int divi =a/b;
-	System.out.println("Division : "+divi);
-	int rema = a%b;
-	System.out.println("Remainder : "+rema);
+	
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("Enter first number :");
+	int a= scan.nextInt();
+	
+	System.out.println("Enter second number :");
+	int b= scan.nextInt();
+	
+	System.out.println("Choose the operator :");
+	char operator = scan.next().charAt(0);
+	
+	if (operator=='+') {
+		System.out.println("Result :"+(a+b));
+	}
+	
+	else if(operator=='-') {
+		System.out.println("Result :"+(a-b));
+	}
+	else if(operator=='*') {
+		System.out.println("Result :"+(a*b));
+	}
+	else if(operator=='/') {
+		System.out.println("Result :"+(a/b));
+	}
+	else if(operator=='%') {
+		System.out.println("Result :"+(a%b));
+	}
+	else {
+		System.out.println("Invalid operator");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	 
 	
 	}
 }
+
